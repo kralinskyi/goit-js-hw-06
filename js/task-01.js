@@ -1,8 +1,6 @@
 const countCategoriesAndItems = () => {
   const categoriesItemsRef = document.querySelectorAll(".item");
   const categoriesRef = categoriesItemsRef.length;
-  const categoryNameRef = null;
-  const elementsRef = null;
 
   console.log(`Number of categories: ${categoriesRef}`);
 
